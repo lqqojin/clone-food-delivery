@@ -160,7 +160,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				FF80E8E19D60C1E58E97E3E7 /* [CP] Copy Pods Resources */,
-				7B1DF7799B47305209C50B58 /* [CP] Embed Pods Frameworks */,
+				EB5E070A78622925E1733415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,8 +182,8 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0EE1E07A93F2C604AE785329 /* [CP] Copy Pods Resources */,
-				C6E116E8C86C7C81193F9ABA /* [CP] Embed Pods Frameworks */,
+				58A10964C7323C128FB268D5 /* [CP] Copy Pods Resources */,
+				33652915CDE88EED70378C73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,21 +265,21 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0EE1E07A93F2C604AE785329 /* [CP] Copy Pods Resources */ = {
+		33652915CDE88EED70378C73 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		515C57E957EFDA7A9028B03A /* [CP] Check Pods Manifest.lock */ = {
@@ -304,6 +304,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		58A10964C7323C128FB268D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		727E047CF607E2A361D82109 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,7 +343,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B1DF7799B47305209C50B58 /* [CP] Embed Pods Frameworks */ = {
+		EB5E070A78622925E1733415 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,23 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppTests/Pods-FoodDeliveryApp-FoodDeliveryAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6E116E8C86C7C81193F9ABA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {

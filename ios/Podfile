@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 
 
-platform :ios, '11.0'
+platform :ios, '12.1'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'FoodDeliveryApp' do
@@ -38,10 +38,11 @@ target 'FoodDeliveryApp' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable the next line.
-  use_flipper!()
+  use_flipper!
   pod 'NMapsMap'
   post_install do |installer|
-    react_native_post_install(installer)
+    flipper_post_install(installer)
+#     react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end
