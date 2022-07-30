@@ -62,9 +62,13 @@ function SignIn({navigation}: SignInScreenProps) {
         response.data.data.refreshToken,
       );
     } catch (error) {
-      const errorResponse = (error as AxiosError).response as AxiosResponse;
-      if (errorResponse) {
-        Alert.alert('알림', errorResponse.data.message);
+      if (error && (error as AxiosError).response) {
+        const errorResponse = (error as AxiosError).response as AxiosResponse;
+        if (errorResponse) {
+          Alert.alert('알림', errorResponse.data.message);
+        }
+      } else {
+        console.log(error, 'response 없음');
       }
     } finally {
       setLoading(false);

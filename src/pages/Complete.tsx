@@ -17,7 +17,7 @@ import {
 import {LoggedInParamList} from '../../AppInner';
 import ImagePicker from 'react-native-image-crop-picker';
 import ImageResizer from 'react-native-image-resizer';
-import axios, {AxiosError} from 'axios';
+import axios, {AxiosError, AxiosResponse} from 'axios';
 import Config from 'react-native-config';
 import {useSelector} from 'react-redux';
 import {RootState} from '../store/reducer';
@@ -28,8 +28,11 @@ function Complete() {
   const dispatch = useAppDispatch();
   const route = useRoute<RouteProp<LoggedInParamList>>();
   const navigation = useNavigation<NavigationProp<LoggedInParamList>>();
-  const [image, setImage] =
-    useState<{uri: string; name: string; type: string}>();
+  const [image, setImage] = useState<{
+    uri: string;
+    name: string;
+    type: string;
+  }>();
   const [preview, setPreview] = useState<{uri: string}>();
   const accessToken = useSelector((state: RootState) => state.user.accessToken);
 
@@ -95,14 +98,14 @@ function Complete() {
           authorization: `Bearer ${accessToken}`,
           'Content-Type': 'multipart/form-data',
         },
-        transformRequest: formData => formData,
+        // transformRequest: formData => formData,
       });
       Alert.alert('알림', '완료처리 되었습니다.');
       navigation.goBack();
       navigation.navigate('Settings');
       dispatch(orderSlice.actions.rejectOrder(orderId));
     } catch (error) {
-      const errorResponse = (error as AxiosError).response;
+      const errorResponse = (error as AxiosError).response as AxiosResponse;
       if (errorResponse) {
         Alert.alert('알림', errorResponse.data.message);
       }
