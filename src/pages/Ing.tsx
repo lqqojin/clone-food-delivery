@@ -128,6 +128,7 @@ function Ing({navigation}: IngScreenProps) {
               {latitude: end.latitude, longitude: end.longitude},
             ]}
             color="orange"
+            width={10}
             onClick={() => {
               TMap.openNavi(
                 '도착지',
