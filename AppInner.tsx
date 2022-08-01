@@ -157,6 +157,7 @@ function AppInner() {
         options={{
           headerShown: false,
           title: '지도',
+          unmountOnBlur: true,
           tabBarIcon: () => <FontAwesome5 name="map" size={20} />,
         }}
       />
@@ -165,6 +166,7 @@ function AppInner() {
         component={Settings}
         options={{
           title: '내 정보',
+          unmountOnBlur: true,
           tabBarIcon: () => <FontAwesome name="gear" size={20} />,
         }}
       />
