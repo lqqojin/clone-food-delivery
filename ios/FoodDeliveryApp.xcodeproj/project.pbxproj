@@ -12,6 +12,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8DFAC99F2897CA32006CE5C8 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAC99B2897CA32006CE5C8 /* Fonts */; };
+		8DFAC9A42897CA6B006CE5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAC9A22897CA6B006CE5C8 /* Assets.xcassets */; };
+		8DFAC9A52897CA6B006CE5C8 /* RCTTMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFAC9A32897CA6B006CE5C8 /* RCTTMap.m */; };
+		8DFAC9A92897CBE6006CE5C8 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 8DFAC9A82897CBE6006CE5C8 /* AppIcon.appiconset */; };
+		8DFAC9C12897DF77006CE5C8 /* TopLib_Op.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFAC9C02897DF77006CE5C8 /* TopLib_Op.a */; };
 		CC498B0639A6DD594FDFF7BF /* libPods-FoodDeliveryApp-FoodDeliveryAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03924174693A4AF42285FA6 /* libPods-FoodDeliveryApp-FoodDeliveryAppTests.a */; };
 		DDFDCE8E07643E9AE55A9E79 /* libPods-FoodDeliveryApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AE008555E0FF497006792D /* libPods-FoodDeliveryApp.a */; };
 /* End PBXBuildFile section */
@@ -39,6 +44,32 @@
 		3F7F835AE02766926B081E8D /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppTests/Pods-FoodDeliveryApp-FoodDeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C589AFCA9265B512A70BBF5 /* Pods-FoodDeliveryApp-FoodDeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp-FoodDeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppTests/Pods-FoodDeliveryApp-FoodDeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FoodDeliveryApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DFAC99B2897CA32006CE5C8 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		8DFAC99D2897CA32006CE5C8 /* FoodDeliveryApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FoodDeliveryApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DFAC9A12897CA6B006CE5C8 /* RCTTMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTTMap.h; path = FoodDeliveryApp/RCTTMap.h; sourceTree = "<group>"; };
+		8DFAC9A22897CA6B006CE5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FoodDeliveryApp/Assets.xcassets; sourceTree = "<group>"; };
+		8DFAC9A32897CA6B006CE5C8 /* RCTTMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTTMap.m; path = FoodDeliveryApp/RCTTMap.m; sourceTree = "<group>"; };
+		8DFAC9A82897CBE6006CE5C8 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = FoodDeliveryApp/Assets.xcassets/AppIcon.appiconset; sourceTree = "<group>"; };
+		8DFAC9AB2897CD73006CE5C8 /* TMapType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapType.h; sourceTree = "<group>"; };
+		8DFAC9AC2897CD73006CE5C8 /* TMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapView.h; sourceTree = "<group>"; };
+		8DFAC9AD2897CD73006CE5C8 /* BizCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizCategory.h; sourceTree = "<group>"; };
+		8DFAC9AE2897CD74006CE5C8 /* TMapPolyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolyLine.h; sourceTree = "<group>"; };
+		8DFAC9AF2897CD74006CE5C8 /* TMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolygon.h; sourceTree = "<group>"; };
+		8DFAC9B02897CD74006CE5C8 /* TMapGpsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapGpsManager.h; sourceTree = "<group>"; };
+		8DFAC9B12897CD74006CE5C8 /* TMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMap.h; sourceTree = "<group>"; };
+		8DFAC9B22897CD75006CE5C8 /* TMapMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem.h; sourceTree = "<group>"; };
+		8DFAC9B32897CD75006CE5C8 /* TMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapAnnotation.h; sourceTree = "<group>"; };
+		8DFAC9B42897CD75006CE5C8 /* TMapMarkerItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem2.h; sourceTree = "<group>"; };
+		8DFAC9B52897CD76006CE5C8 /* TMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapObject.h; sourceTree = "<group>"; };
+		8DFAC9B62897CD76006CE5C8 /* TMapOverlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapOverlayItem.h; sourceTree = "<group>"; };
+		8DFAC9B72897CD76006CE5C8 /* TMapPathData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPathData.h; sourceTree = "<group>"; };
+		8DFAC9B82897CD76006CE5C8 /* TMapTapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapTapi.h; sourceTree = "<group>"; };
+		8DFAC9B92897CD77006CE5C8 /* TMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPoint.h; sourceTree = "<group>"; };
+		8DFAC9BA2897CD77006CE5C8 /* TMapKatec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapKatec.h; sourceTree = "<group>"; };
+		8DFAC9BB2897CD77006CE5C8 /* TMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapCircle.h; sourceTree = "<group>"; };
+		8DFAC9BC2897CD78006CE5C8 /* TMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPOIItem.h; sourceTree = "<group>"; };
+		8DFAC9BD2897CD78006CE5C8 /* TMapBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapBaseView.h; sourceTree = "<group>"; };
+		8DFAC9C02897DF77006CE5C8 /* TopLib_Op.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TopLib_Op.a; sourceTree = "<group>"; };
 		9A05D37C6EB636A358E73CEF /* Pods-FoodDeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
 		CC6307D93E4F1E9D09A657B9 /* Pods-FoodDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D9AE008555E0FF497006792D /* libPods-FoodDeliveryApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodDeliveryApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFAC9C12897DF77006CE5C8 /* TopLib_Op.a in Frameworks */,
 				DDFDCE8E07643E9AE55A9E79 /* libPods-FoodDeliveryApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +118,10 @@
 		13B07FAE1A68108700A75B9A /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8DFAC9A22897CA6B006CE5C8 /* Assets.xcassets */,
+				8DFAC9A82897CBE6006CE5C8 /* AppIcon.appiconset */,
+				8DFAC9A12897CA6B006CE5C8 /* RCTTMap.h */,
+				8DFAC9A32897CA6B006CE5C8 /* RCTTMap.m */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -116,6 +152,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8DFAC9C02897DF77006CE5C8 /* TopLib_Op.a */,
+				8DFAC9AA2897CD4A006CE5C8 /* Headers */,
+				8DFAC99B2897CA32006CE5C8 /* Fonts */,
+				8DFAC99D2897CA32006CE5C8 /* FoodDeliveryApp-Bridging-Header.h */,
 				13B07FAE1A68108700A75B9A /* FoodDeliveryApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* FoodDeliveryAppTests */,
@@ -135,6 +175,32 @@
 				00E356EE1AD99517003FC87E /* FoodDeliveryAppTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8DFAC9AA2897CD4A006CE5C8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8DFAC9AD2897CD73006CE5C8 /* BizCategory.h */,
+				8DFAC9B12897CD74006CE5C8 /* TMap.h */,
+				8DFAC9B32897CD75006CE5C8 /* TMapAnnotation.h */,
+				8DFAC9BD2897CD78006CE5C8 /* TMapBaseView.h */,
+				8DFAC9BB2897CD77006CE5C8 /* TMapCircle.h */,
+				8DFAC9B02897CD74006CE5C8 /* TMapGpsManager.h */,
+				8DFAC9BA2897CD77006CE5C8 /* TMapKatec.h */,
+				8DFAC9B22897CD75006CE5C8 /* TMapMarkerItem.h */,
+				8DFAC9B42897CD75006CE5C8 /* TMapMarkerItem2.h */,
+				8DFAC9B52897CD76006CE5C8 /* TMapObject.h */,
+				8DFAC9B62897CD76006CE5C8 /* TMapOverlayItem.h */,
+				8DFAC9B72897CD76006CE5C8 /* TMapPathData.h */,
+				8DFAC9BC2897CD78006CE5C8 /* TMapPOIItem.h */,
+				8DFAC9B92897CD77006CE5C8 /* TMapPoint.h */,
+				8DFAC9AF2897CD74006CE5C8 /* TMapPolygon.h */,
+				8DFAC9AE2897CD74006CE5C8 /* TMapPolyLine.h */,
+				8DFAC9B82897CD76006CE5C8 /* TMapTapi.h */,
+				8DFAC9AB2897CD73006CE5C8 /* TMapType.h */,
+				8DFAC9AC2897CD73006CE5C8 /* TMapView.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -242,8 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFAC99F2897CA32006CE5C8 /* Fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8DFAC9A92897CBE6006CE5C8 /* AppIcon.appiconset in Resources */,
+				8DFAC9A42897CA6B006CE5C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFAC9A52897CA6B006CE5C8 /* RCTTMap.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -485,11 +555,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC9277R5Z;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FoodDeliveryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -511,10 +586,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SC9277R5Z;
 				INFOPLIST_FILE = FoodDeliveryApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -577,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -641,7 +721,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
